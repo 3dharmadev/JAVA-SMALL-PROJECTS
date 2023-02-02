@@ -1,0 +1,4 @@
+We can create thread by passing runnable as a parameter. We can’t create thread by passing callable as parameter .
+Callable has a return type , runnable is void type.
+it runnable has run  method while callable has call method.
+runnable is not for bulk execution while callable is buit for it.

@@ -1,0 +1,5 @@
+Explain the difference between Checked and Unchecked exception?
+
+Checked exception we can catch during compile time while unchecked exception is a runtime exception .
+we can handle checked exception using try catch block but unchecked types of exceptions cannot be a catch or handle at the time of compilation.
+many of the time unchecked exception may created by programmer.

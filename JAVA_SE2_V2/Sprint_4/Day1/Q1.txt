@@ -1,0 +1,30 @@
+Q1/- 1. What is the requirement of Java Database communication?
+     RDBMS software are excellent in storing data in a secure and easily
+     retrieval manner, but it is very poor in processing and presenting the data
+     in user understandable format.
+     in the same way our java app is excellent in processing and presenting the data but
+     very poor in storing the data.
+     we can store data in java inside the file using serialization but not better than  RDBMS.
+     so in order to build powerful application we  need integreation of RDBMS and java.
+
+
+Q2/- 2. What is JDBC, Write a note on JDBC driver software.
+ JDBC stands for java database connectivity through which java can communicate with the
+ RDBMS database.To use jdbc we need to download jdbc software and configure that into
+ classpath for that application then we can use those necessary classes inside our project.
+ Driver vendor will create JDBC software for that RDBMS app.
+
+Q3/- Write a Jdbc application to establish the connection with the Mysql database.
+
+To use jdbc  software we need to download jdbc software and configure that into
+ classpath for that application then we can use those necessary classes inside our project.
+ Driver vendor will create JDBC software for that RDBMS app.
+ step 1 download jdbc software for mysql
+ step 2 config classpath and add downloaded jar for your project
+ step 3 load Driver using Class.forName
+ step 4 use database url to connect with the database
+ step 5 add url username password to DriverManager.getConnection
+step 6 use the connection object for your application
+Q4/- Write down the responsibilities of the Jdbc Client.
+JDBC client is not different than Java developer which will create the connection
+with the database , perform some operation with database then close the connection.

@@ -1,0 +1,12 @@
+Differentiate between process and thread based multitasking.
+
+Here Process means the different application processes running simultaneously inside a operating system.
+Thread basically sub-processes of that application running simultaneously or different thread running simultaneously.
+
+In process base multitasking own address of process is required but in thread base all threads are running under the same process
+address.
+
+Thread is a light weight process while process base multitasking comparative heavy weight processes.
+
+Process to process communication is expensive but in thread base they are on same sandbox area or same location area so
+communication is cheap in thread base multi tasking.

@@ -1,0 +1,16 @@
+/*Q1/ - Write down some predefined Functional interfaces in the java library at least 4
+interfaces, with their methods.*/
+some of the functional interface introduced in java 1.8 to perform functional programming:
+these interface belongs to "java.util.function"  package.
+
+1. Predicate: public boolean test(Object obj);
+//test will take one object , it will check whether it satisfy any condition or not according to tht it return true or false
+2. Consumer : public void accept(Object obj);
+//accept also take one object and it does not  return any value but except returning you can perform anything
+3. Supplier : public Object get();
+//get method does not have any parameter but it returns an object
+4. Function : public Object apply(Object obj);
+//this apply method takes an object and return an object also let's take an object student
+// after completing the work of student it will return an employee object.
+
+//above mentioned interface are generic type

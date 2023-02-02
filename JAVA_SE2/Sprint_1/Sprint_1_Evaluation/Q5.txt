@@ -1,0 +1,8 @@
+- What do you mean by Method Reference, How to refer static method, nonstatic method and constructor, explain each one with proper example
+
+It is a most simplified form of Anonymous class or lambda expression  you can say.
+For example if I already declare a method no need to create it again but with help of method reference we can refer to that perticular method without
+ creating any new same method of same functionality , we can refer them using method reference , we can do the same functionality wihtout creating it again.
+
+ You can refer to a constructor as well not only constructor but also to the inbuilt functions as well. this is the beauty of java why it is called most
+ innovative language.

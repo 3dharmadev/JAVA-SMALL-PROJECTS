@@ -1,0 +1,5 @@
+What is the POM, Explain the basic properties of the pom.xml file in Maven based application.
+
+POM stands for project management tool through which we can add dependencies.
+maven will automatically add the required jar file from local or remote/central repo.
+pom.xml contains Project name.version,packaging,dependencies,plugins .

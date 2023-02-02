@@ -1,0 +1,6 @@
+equals() method internally compares the object address which used == operator  whereas hashcode method create a numeric address of any object
+ created . hashcode gives a numeric value to an internal memory address.
+
+ equals compare two objects while hashcode is used in hashing to decide which group an object should be placed into like if we consider
+ two string with same value , it will give same hashcode to both of the strings while comparing we jsut comparing the address of hashcode
+ nothing more than this.

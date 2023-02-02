@@ -1,0 +1,5 @@
+What is the Difference between the wait and sleep methods?
+
+Wait() method release the lock during Synchronization but sleep method does not release lock during Synchronization.
+Wait() should be called only from Synchronized context. There is no need to call sleep() from Synchronized context.
+wait method will wait for the required function completion until the proper value generated. sleep only make that the execution or thread sleep for that particular time only/

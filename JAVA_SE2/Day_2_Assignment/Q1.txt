@@ -1,0 +1,8 @@
+Both Statement and prepared statement used in JDBC to execute sql queries.
+You can not pass paramters on run time in statement where in prepared statement you can pass parameter
+into it.
+Statement is used for create , alter , drop statements where one time execution needed
+if you do same thing repeatedly on statement then performance decrease , while in Prepared Statement
+used for executing same query multiple times,it does not degrade the performance.
+Statement used for DDL statement where Prepared statement used for executing SQL query repeatedly manner.
+We can not use statement for writing binary data.	We can use Preparedstatement for writing binary data.

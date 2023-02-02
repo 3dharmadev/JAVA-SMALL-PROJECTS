@@ -1,0 +1,9 @@
+What are the benefits of using Multithreading?
+It will help to execute all the functionality of application simultaneously.
+fast execution of program will help all process run and finish at the same time.
+Multithreading in an interactive application enables a program to continue running
+even if a section is blocked or executing a lengthy process, increasing user responsiveness.
+
+All the threads of a process share its resources such as memory, data, files etc.
+A single application can have different threads within the same address space using resource sharing.
+

@@ -1,0 +1,11 @@
+What are the different phases of the Maven life cycle?
+
+1.validate:check whether project structure is valid or not.
+2.compile: maven compiles all the source code
+3.test-compile: if project contains any test cases it will compile those code.
+4.test: maven will run all the test cases and it will show how many test cases
+are success and how many fails.
+5.package: maven will bundle our java code into a jar file inside 'target folder'.
+6.install:that jar file will store in local rpo.
+7.deploy: maven stores the app jar file in central/remote repo.
+8.clean:it will delete files from target folder

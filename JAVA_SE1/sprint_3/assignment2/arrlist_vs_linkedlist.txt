@@ -1,0 +1,4 @@
+1.Arraylist is dynamic that means it's default storing size is 16 when storing capacity cross 75% it will create a new array
+ double size of it's initial size in the other hand linked list store memory address of the data instead of storing  the actual data.
+ Array list is slower while linked list is much faster compare to array list. manipulation of data in array list even slower compared to
+  linked list. linked list store current address and points to the reference address to next node.

@@ -1,0 +1,11 @@
+Q2/- Differentiate between Hibernate and JPA.
+
+Java persistence api is a standard api using which we can work with any kind of ORM software.
+Hibernate has its own api also.
+Hibernate is an Object relational mapping framework through which we can directly store class object into relational databases.
+Where JPA describes the handling of relational data in java application.
+JPA is described in javax.persistence ,Hibernate is decribed in org.hibernate .
+JPA is the standard api for all the ORM frameworks.
+
+JPA has its won query JPQL and hibernate has its won query also HQL.
+

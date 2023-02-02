@@ -1,0 +1,3 @@
+ What do you mean by Multithreading In Java?
+ multi threading means process of executing more than one thread simultaneously for maximum utilization of the CPU .
+ It is execution of different process inside of same application simultaneously.

@@ -1,0 +1,36 @@
+ Explain the Build process of the Java Application, How the Maven helps in the application build?
+
+Build process contains 8 steps -:
+1.Writing source code
+2.add dependency files(adding external jar to classpath like mysql connector)
+3.compiling code
+4.preparing test cases
+5.adding test case dependency to classpath
+6.compile and run the testcases
+7.generate test report
+8.arrange code in a standard folder structure
+
+ after completion of above thing deploy war/jar on the server , if we want to add new features
+ to the existing webapp then we need to do the above task again and again.
+so there is different build tool or project management tool through which
+we can do above task after modification on source code.
+
+
+maven is one of the building tool or project management tool through which
+
+we can develop java application using maven 2 ways:
+1.using console based .
+Here we need to download maven software and install it in our computer ,
+and then we need to set path and some environment variable.
+2. using IDE:
+here we need to create maven project and adding some required things and done.
+
+ using 8 step maven build the project:
+ 1.validate check project directory structure
+ 2.compile source code
+ 3.compile test cases
+ 4.then it will run all testcases
+ 5.package:it will make a jar file of that project
+ 6.install:save jar in local repo.
+ 7.deploy:maven stores the app in central repo
+ 8.clean: it will clean files in target folder

@@ -1,0 +1,13 @@
+Differentiate between the Thread class and Runnable interface for creating a Thread? with proper example.
+
+Thread class implements runnable interface while runnable interface is a function interface contains run method.
+
+Thread class have overriden run method with empty implementation , if we extend thread class then we need to override
+ run method second time then we can declare whatever we want to declare inside the run method then we need to call start
+ method using child object of thread class . inside the start method there is a run method called which will call the child class run ethod.
+ but in this case you can not achieve multiple inheritance.
+
+ if we implement runnable interface we can achieve multiple inheritance .
+ after implementing runnable interface you need  to over ride the run method and write your declaration then you need to
+ create the object of thread class inside the main method then you need to pass the implemented class inside the thread object as argument.
+ then you can call start method using object of thread class then it will start the same run method using another thread.

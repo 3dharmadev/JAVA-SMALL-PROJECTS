@@ -1,0 +1,31 @@
+What is the difference between the synchronized block and the synchronized
+method? Write down the different syntaxes of the synchronized block with examples.
+
+synchronized method makes everything synchronized for that method that means until the execution finished of that thread ,
+ even we want to execute one line of code for synchronized though but we other  thread can not use that object lock ,
+ it degrade the performance , but  using synchronized block we can achieve same thread safety using synchronized block ,
+ it only allow to write inside of method not inside of constructor , what it will do , it will make thread accessible for one thread at a time.
+
+ other statements can parallelly executed without any block of wait .
+
+ public void run() {
+
+         synchronized (this){  //this one  is the example of synchronized block inside of a method
+             for (int i=1;i<=10;i++){
+                 multi*=i;
+             }
+             this.notify();
+         }
+
+     }
+
+      public   synchronized void funA(){ //this one is the  example of synchronized method
+             System.out.println("welcome....");
+
+             try {
+                 Thread.sleep(1000);
+             } catch (InterruptedException e) {
+                 throw new RuntimeException(e);
+             }
+             System.out.println("Admin");
+         }

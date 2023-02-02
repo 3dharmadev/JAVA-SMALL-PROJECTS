@@ -1,0 +1,9 @@
+What are the different states of a thread, or what is thread lifecycle?
+
+Thread goes through different various life cycle. Different states of thread is born , started , runs and dies.
+
+a thread begins it's life cycle in it's new states. A program until started it keeps in new state.
+when thread started then the thread becomes runnable. this is it executes it's task.
+sometimes it wait for a second even it;s depends on sleep time was given to it.
+At the end thread goes into die state where it finishes it's execution and terminated out of the program.
+this state is called dead state.

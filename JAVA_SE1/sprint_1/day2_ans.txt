@@ -1,0 +1,23 @@
+ans1
+typecasting means when you assign a value of one data type to other type is known as typecasting. It is of two types
+implicit and explicit.
+Implicit means automatic typecasting or compiler automatically make it possible ,
+like when you storing a smaller value  into a larger size data type it is called implicit typecasting .
+byte a=10;
+int b;
+b=a;
+in the above example b is the byte type stored easily inside the int type because int can store large number compared to byte .
+It is automatic type conversion .
+ but in explicit typecasting you storing large number into a smaller size data type so you need to manually type the datatype
+ for that type conversion.
+ example
+
+ int a=122211231;
+ byte b= (byte) a;
+here you need to manually type the data type because you are storing a large value inside the smaller data type.
+
+
+ ans2
+
+Local variable means if you declare a variable inside of method then it is called local variable and
+ if you declare a variable inside of class but outside the body of method is  called instance variable.

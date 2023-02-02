@@ -1,0 +1,8 @@
+Q2/- What is a Race condition, How will you solve the Race condition,explain with an Example.
+
+In a layman terms , a race condition means a condition in which two or more threads competing together to get certain shared resources.
+For example, if thread A is reading data from the linked list and another thread B is trying to delete the same data.
+This process leads to race condition may result run time error.
+
+we can declare thread.join(); method by which the thread scheduler will wait until the process went to finish the execution of it's all functionality.
+without this data inconsistency happen.

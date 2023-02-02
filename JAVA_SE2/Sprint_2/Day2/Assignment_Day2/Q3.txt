@@ -1,0 +1,5 @@
+  What is the Difference between the sleep and join method explain with one example.
+  sleep method is a static method while join is not a static method because we call join method using object of thread class.
+  sleep wait for a particular given time while join will make the thread scheduler in pause mode so it will wait until that program finish
+  it;s execution.
+  both of them using in different condition .

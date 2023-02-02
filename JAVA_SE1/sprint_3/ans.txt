@@ -1,0 +1,22 @@
+upcasting the way to store child reference inside of parent object stack , other defination is storing a sub type into the super type .
+It is also called as implicit type casting means it's automatic storing of smaller thing in large container.
+
+  public class _Upcasting_Better_Example {
+      public static void main(String[] args) {
+          Bike bike=new KTM();
+      }
+  }
+  class Bike{
+      void run(){
+          System.out.println("bike running");
+      }
+  }
+
+  class KTM extends Bike{
+      @Override
+      void run() {
+          System.out.println("KTM bike running");
+      }
+  }
+  in the above example we are storing a sub class reference or object or KTM heap memory location inside the stack super class object by creating
+  super class object of Bike.

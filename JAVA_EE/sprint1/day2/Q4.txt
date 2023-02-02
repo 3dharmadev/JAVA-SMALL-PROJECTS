@@ -1,0 +1,14 @@
+Explain about the ORM, what are the benefits of the ORM approach over the
+JDBC approach.
+
+    ORM
+    Little slower than JDBC.
+    SQL queries requirement is comparatively quite less however this does not
+    mean that you have to do less work using ORM.
+    One of the best orm framework is Hibernate which stores your object directly into the database.
+      the frontend part is based on the ORM technique .Even it internally implements JDBC.
+     JDBC
+     It is faster compare to ORM.
+     SQL queries are required here.
+     We have to write code manually to store object in the database.
+     the backend part is still based on JDBCin

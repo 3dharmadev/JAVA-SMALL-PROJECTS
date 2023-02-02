@@ -1,0 +1,19 @@
+Q1/- Limitation of JDBC-based persistence logic over the ORM.
+
+ the process of saving/storing java objects into the database software is known as java persistance.
+
+ for small application we can store business data into the file using IO streams.
+
+  but for realtime application we store the data inside database using jdbc.
+  the logic that we write to store java objects into the database using jdbc is known as jdbc based persistence logic.
+
+  jdbc can not store the java objects into the table directly because sql queries not allows the java objects as input, here  we need to
+  convert obj data into the atomic value to store them in database.
+
+  jdbc code is the database dependent code cause it use database dependent query.
+  so jdbc persistence logic is not 100% portable across different DB.
+
+  lots of boilerplate code
+  jdbc code throws lots of checked exceptions,programmer needs to handle.
+   getting data from result set and setting data in object.
+there is no any caching and transaction management support available in jdbc.

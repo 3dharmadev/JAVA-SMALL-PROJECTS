@@ -1,0 +1,6 @@
+What are the different types of Maven repositories?
+
+mavven have 3 types of repo:
+1.local repo: while adding dependency it will search file in local repo first.
+2.remote repo: the organisation may have created a remote repo to store all jar files.
+4.central repo : this is the mvnrepository where maven download all dependency from here onlu.
